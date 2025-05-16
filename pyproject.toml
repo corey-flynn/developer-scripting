@@ -11,3 +11,6 @@ dependencies = []
 
 [tool.hatch.build.targets.wheel]
 packages = ["Python/pages/files/"]
+
+[tool.hatch.build.targets.wheel.sources]
+"" = "vs_dev_docs"
