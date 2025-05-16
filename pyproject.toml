@@ -1,0 +1,10 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vectorworks-developer-scripting"
+version = "2025.0.0"
+readme = "README.md"
+requires-python = ">=3.9.2"
+dependencies = []
