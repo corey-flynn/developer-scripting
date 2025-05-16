@@ -4,7 +4,10 @@ build-backend = "hatchling.build"
 
 [project]
 name = "vectorworks-developer-scripting"
-version = "2025.0.0"
+version = "2025.0.0a1"
 readme = "README.md"
 requires-python = ">=3.9.2"
 dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["Python/pages/files/"]
